@@ -304,6 +304,11 @@ export default {
                   'https://raw.githubusercontent.com/ibule/ACL4SSR-1/master/Clash/config/ibule.ini',
               },
               {
+                label: '多机场ibule分组规则 (与Github同步)',
+                value:
+                  'https://raw.githubusercontent.com/ibule/ACL4SSR-1/master/Clash/config/ibule_sub_url.ini',
+              },
+              {
                 label: 'ACL4SSR_Online 默认版 分组比较全 (与Github同步)',
                 value:
                   'https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini',
@@ -494,7 +499,7 @@ export default {
         clientType: '',
         customBackend: '',
         remoteConfig: '',
-        excludeRemarks: '',
+        excludeRemarks: '永久虚通路|官网|购买渠道|纯IPV6接入',
         includeRemarks: '',
         filename: '',
         emoji: true,
